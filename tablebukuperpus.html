@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Peminjaman Buku</title>
+</head>
+<body>
+    <h1 align="center">Perpustakaan Sumber Ilmu</h1>
+    <table border="solid" align="center">
+        <tr>
+            <th >Nomor</th>
+            <th >Nama Buku</th>
+            <th >Category</th>
+            <th >Jumlah Buku</th>
+        </tr>
+        <tr>
+            <td align="center">1.</td>
+            <td align="center">Matematika Diskrit</td>
+            <td align="center">Ilmu Pengetahuan</td>
+            <td align="center">20</td>
+        </tr>
+        <tr>
+            <td align="center">2.</td>
+            <td align="center">Azab Neraka</td>
+            <td align="center">Agama</td>
+            <td align="center">32</td>
+        </tr>
+        <tr>
+            <td align="center">3.</td>
+            <td align="center">Adab Terhadap Orang Tua</td>
+            <td align="center">Agama</td>
+            <td align="center">25</td>
+        </tr>
+        <tr>
+            <td align="center">4.</td>
+            <td align="center">Algoritma Pemprograman</td>
+            <td align="center">Ilmu Pengetahuan</td>
+            <td align="center">21</td>
+        </tr>
+        <tr>
+            <td align="center">5.</td>
+            <td align="center">Di Mana Atlantis?</td>
+            <td align="center">Sejarah</td>
+            <td align="center">31</td>
+        </tr>
+    </table>
+    <br><br>
+    <form action="" method="">
+        <fieldset >
+            <p><label for="name">Name:</label> <input type="text" id="name" placeholder="Your Name" required></p>
+            <p><label for="email">Email:</label> <input type="email" id="email" placeholder="Email@example.com" required></p>
+            <p><label for="phone">Phone:</label> <input type="number" id="phone" pattern=".{11,}" title="Minimal 11 Nomor" placeholder="081234567890" required></p>
+        </fieldset>
+        <br>
+        
+        <b>Pilih Buku yang ingin dipinjam: </b> <br>
+        <input type="radio" name="pinjam">Filsafat Socrates <br> 
+        <input type="radio" name="pinjam">Kalkulus <br>
+        <input type="radio" name="pinjam">Logika Dasar Pemrograman <br>
+        <input type="radio" name="pinjam">Beyond the Inspiration <br>
+        <input type="radio" name="pinjam">25 Kisah Nabi <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
